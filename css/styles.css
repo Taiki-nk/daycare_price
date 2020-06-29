@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: green;
+  background: #19ad19;
 }
 
 .container {
@@ -29,7 +29,7 @@ body {
 }
 
 .container .input-content p {
-  color: green;
+  color: #19ad19;
   font-weight: 600;
   margin: 0;
   margin-right: 36px;
@@ -54,12 +54,19 @@ body {
 
 .container .answer-content #btn:hover {
   border: solid 1px #fff;
-  background: green;
+  background: #19ad19;
   color: #fff;
 }
 
-.container .answer-content #answer {
+.container .answer-content .answer {
   background: #fff;
   margin-top: 50px;
+  padding: 16px;
+  font-size: 1.5rem;
+}
+
+.container .answer-content .answer #answer {
+  color: red;
+  font-weight: bold;
 }
 /*# sourceMappingURL=styles.css.map */
