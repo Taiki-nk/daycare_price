@@ -39,10 +39,27 @@ body {
   text-align: center;
 }
 
-.container .answer-content button {
+.container .answer-content #btn {
+  background: #fff;
   padding: 4px;
   font-size: 1.2rem;
   font-weight: 500;
-  margin: 24px;
+  width: 100px;
+  margin: 0 auto;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border: solid 1px #fff;
+}
+
+.container .answer-content #btn:hover {
+  border: solid 1px #fff;
+  background: green;
+  color: #fff;
+}
+
+.container .answer-content #answer {
+  background: #fff;
+  margin-top: 50px;
 }
 /*# sourceMappingURL=styles.css.map */

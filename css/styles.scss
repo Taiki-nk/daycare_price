@@ -31,11 +31,26 @@ body {
   
   .answer-content {
     text-align: center;
-    button {
+    #btn {
+      background: #fff;
       padding: 4px;
       font-size: 1.2rem;
       font-weight: 500;
-      margin: 24px;
+      width: 100px;
+      margin: 0 auto;
+      cursor: pointer;
+      transition: 0.2s;
+      border: solid 1px #fff;
+      &:hover {
+        border: solid 1px #fff;
+        background: green;
+        color: #fff;
+      }
+    }
+
+    #answer {
+      background: #fff;
+      margin-top: 50px;
     }
   }
 }
