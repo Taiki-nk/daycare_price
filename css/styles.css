@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: green;
+}
+
+.container {
+  width: 60%;
+  min-width: 280px;
+  margin: 0 auto;
+}
+
+.container .main-title {
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+}
+
+.container .input-content {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.container .input-content p {
+  color: green;
+  font-weight: 600;
+  margin: 0;
+  margin-right: 36px;
+}
+
+.container .answer-content {
+  text-align: center;
+}
+
+.container .answer-content button {
+  padding: 4px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 24px;
+}
+/*# sourceMappingURL=styles.css.map */

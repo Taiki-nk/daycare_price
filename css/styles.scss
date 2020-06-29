@@ -1,0 +1,42 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: green;
+}
+
+.container {
+  width: 60%;
+  min-width: 280px;
+  margin: 0 auto;
+  .main-title {
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  .input-content {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 16px;
+    p {
+      color: green;
+      font-weight: 600;
+      margin: 0;
+      margin-right: 36px;
+    }
+  }
+  
+  .answer-content {
+    text-align: center;
+    button {
+      padding: 4px;
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin: 24px;
+    }
+  }
+}
+

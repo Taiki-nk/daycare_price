@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>通所リハビリテーション｜料金計算</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="main-title">デイケア利用料金</h1>
+      <div class="input-content">
+        <p>要介護度</p>
+        <select name="careLevel">
+          <option value="careLevel1">要介護1</option>
+          <option value="careLevel2">要介護2</option>
+          <option value="careLevel3">要介護3</option>
+          <option value="careLevel4">要介護4</option>
+          <option value="careLevel5">要介護5</option>
+        </select>
+      </div>
+      <div class="input-content">
+        <p>負担割合</p>
+        <select name="proportion">
+          <option value="proportion1">1割</option>
+          <option value="proportion2">2割</option>
+        </select>
+      </div>
+      <div class="input-content">
+        <p>利用時間</p>
+        <select name="time">
+          <option value="short">半日利用（2～3ｈ）</option>
+          <option value="long">終日利用（6～7ｈ）</option>
+        </select>
+      </div>
+      <div class="input-content">
+        <p>週の利用回数</p>
+        <select name="frequency">
+          <option value="fre1">1回</option>
+          <option value="fre2">2回</option>
+          <option value="fre3">3回</option>
+          <option value="fre4">4回</option>
+          <option value="fre5">5回</option>
+          <option value="fre6">6回</option>
+          <option value="fre7">7回</option>
+        </select>
+      </div>
+      <div class="answer-content">
+        <button type="submit" value="計算する">計算する</button>
+        <div id="answer">合計<span>〇〇</span>円</div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
